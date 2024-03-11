@@ -51,7 +51,7 @@ Comment.belongsTo(User);
 
 // Create tables in the database
 (async () => {
-    await sequelize.sync({ force: true });
+    await sequelize.sync({ alter: true });
 })();
 
 module.exports = sequelize;
