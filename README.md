@@ -1,3 +1,1 @@
-# Wokman REST API
-
-Work Management REST API
+# Project Board REST API
